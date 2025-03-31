@@ -12,5 +12,5 @@ export const login = async (username: string, password: string) => {
         throw new Error("Login xatosi!")
     }
     const data = await response.json()
-    setTokens(data.refresh, data.refresh)
+    setTokens(data.access, data.refresh)
 }
