@@ -1,0 +1,113 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid gray;
+    height: 90px;
+    padding: 0 20px;
+    position: relative;
+    background-color: white;
+    color: #000;
+}
+
+.navbar.dark {
+    background-color: #1d2636ff;
+    color: white;
+}
+
+.proModal {
+    position: absolute;
+    right: 30px;
+    top: 70px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #000;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+}
+
+.proModal p {
+    width: 100%;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-bottom: 1px solid grey;
+    font-weight: 600;
+}
+
+.proModal b {
+    padding: 5px 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.avatarAndBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navbar-sidbar nav {
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+}
+
+.navbar .navbar-sidbar nav a {
+    color: #000;
+    font-weight: 600;
+}
+
+.navbar.dark .navbar-sidbar nav a {
+    color: white;
+    font-weight: 600;
+}
+
+.navbar .navbar-sidbar nav a:hover {
+    color: #484848dc;
+}
+.navbar.dark .navbar-sidbar nav a:hover {
+    color: #cfcfcfc7;
+}
+.navbar .avatarAndBtn button {
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background-color: #1d2636ff;
+    color: white;
+
+}
+
+.navbar.dark .avatarAndBtn button {
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.fa-user {
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    cursor: pointer;
+    color: #000;
+}

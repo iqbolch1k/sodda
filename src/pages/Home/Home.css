@@ -1,0 +1,11 @@
+.home{
+    width: 100%;
+    min-height: 100vh;
+    color: black;
+    text-align: center;
+}
+
+.home.dark{
+    background-color: #1d2636ff;
+    color: white;
+}
